@@ -61,7 +61,38 @@
     <!-- =====================================
         navbar section start
   ========================================= -->
-      <section class="container mx-auto px-5 lg:px-10 border-2border-red-400">
+      <section class="container mx-auto px-5 lg:px-10">
+        <div>
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class=" menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                  <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Home</a></li>
+                  <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>About</a></li>
+                  <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Pages</a></li>
+                  <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Blog</a></li>
+                  <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="text-xl font-extrabold">Hockey<span class="text-pcolor">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex ">
+              <ul class=" gap-8 menu-horizontal px-1 ">
+                <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Home</a></li>
+                <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>About</a></li>
+                <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Pages</a></li>
+                <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Blog</a></li>
+                <li class="hover:text-pcolor hover:underline  underline-offset-4 cursor-pointer"><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-pcolor text-white">Get Ticket</a>
+            </div>
+          </div>
+        </div>
       </section>
     <!-- =====================================
         navbar section end
@@ -73,12 +104,12 @@
     <!-- =====================================
         banner section start
   ========================================= -->
-    <section class="container mx-auto px-5 lg:px-10 mt-6 border-2 border-red-400">
+    <section class="container mx-auto px-5 lg:px-10 mt-6 ">
       <div class="w-full h-full md:h-[510px]">
         <div class="carousel w-full">
           <!-- slider one -->
           <div id="slide1"
-            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner.png')] bg-no-repeat bg-cover bg-center object-cover">
+            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('./images/banner.png')] bg-no-repeat bg-cover bg-center object-cover">
             <div
               class="absolute flex gap-8 justify-center lg:justify-start lg:transform lg:-translate-y-0 left-5 right-0 lg:right-5 bottom-5">
               <a href="#slide4"
@@ -90,7 +121,7 @@
 
           <!-- slider two -->
           <div id="slide2"
-            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/program01.png')] bg-no-repeat bg-cover bg-center object-cover">
+            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('./images/program01.png')] bg-no-repeat bg-cover bg-center object-cover">
             <div
               class="absolute flex gap-8 justify-center lg:justify-start lg:transform lg:-translate-y-0 left-5 right-0 lg:right-5 bottom-5">
               <a href="#slide1"
@@ -102,7 +133,7 @@
 
           <!-- slider three -->
           <div id="slide3"
-            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner.png')] bg-no-repeat bg-cover bg-center object-cover">
+            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('./images/banner.png')] bg-no-repeat bg-cover bg-center object-cover">
             <div
               class="absolute flex gap-8 justify-center lg:justify-start lg:transform lg:-translate-y-0 left-5 right-0 lg:right-5 bottom-5">
               <a href="#slide2"
@@ -114,7 +145,7 @@
 
           <!-- slider four -->
           <div id="slide4"
-            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/program03.png')] bg-no-repeat bg-cover bg-center object-cover">
+            class="carousel-item relative w-full h-[500px] rounded-lg bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('./images/program03.png')] bg-no-repeat bg-cover bg-center object-cover">
             <div
               class="absolute flex gap-8 justify-center lg:justify-start lg:transform lg:-translate-y-0 left-5 right-0 lg:right-5 bottom-5">
               <a href="#slide3"
@@ -142,7 +173,7 @@
   <!-- =========================================
         professional hockey club section start
   =========================================== -->
-  <section class="container mx-auto px-5 lg:px-10 mt-6 border-2 border-red-400">
+  <section class="container mx-auto px-5 lg:px-10 mt-6 ">
     <div class="my-5 text-center">
       <h3 class="text-2xl font-bold">Professional Hockeys Club</h3>
       <p class="w-full lg:w-1/2 mx-auto">The reach of a professional hockey club extends far beyond the confines of the rink. These organizations become pillars of their communities.</p>
@@ -192,38 +223,43 @@
     <!-- =====================================
        program  section start
   ========================================= -->
-  <section class="container mx-auto px-5 lg:px-10 mt-6 border-2 border-red-400 ">
+  <section class="container mx-auto px-5 lg:px-10 mt-6  ">
     <div class="my-5 text-center">
       <h3 class="text-2xl font-bold">Program Sections</h3>
       <p class="w-full lg:w-1/2 mx-auto">You can reuse program sections, such as functions, in multiple parts of your program, which saves time and effort.</p>
     </div>
     <div class="grid gap-2 grid-cols-1 lg:grid-cols-12 grid-rows-2">
         <!-- card one -->
-        <div class="h-[350px] lg:h-[500px] flex justify-start items-center rounded-lg  p-5 lg:pl-10 col-span-12 lg:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/program01.png')] bg-no-repeat bg-cover bg-center object-cover">
+        <div class="h-[350px] lg:h-[500px] flex justify-start items-center rounded-lg  p-5 lg:pl-10 col-span-12 lg:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('./images/program01.png')] bg-no-repeat bg-cover bg-center object-cover">
           <div class="text-white space-y-2">
             <h3 class="text-lg font-semibold">Professional Hockeys Club</h3>
             <p class="opacity-70 text-sm w-full md:w-3/5">I could also mention specific types of training that might be included in a junior program, such as company culture training,</p>
-            <button class="bg-pcolor text-white py-2 px-5 rounded-lg ">Register Now!</button>
+            <div>
+              <a class="btn bg-pcolor border-none text-white">Register Now!</a>
+            </div>
           </div>
         </div>
         <!-- card two -->
-        <div class="h-[350px] lg:h-[500px] flex justify-start items-center rounded-lg  p-5 lg:pl-10 col-span-12 lg:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/program02.png')] bg-no-repeat bg-cover bg-center object-cover">
+        <div class="h-[350px] lg:h-[500px] flex justify-start items-center rounded-lg  p-5 lg:pl-10 col-span-12 lg:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('./images/program02.png')] bg-no-repeat bg-cover bg-center object-cover">
           <div class="text-white space-y-2">
             <h3 class="text-lg font-semibold">Teenager Program</h3>
             <p class="opacity-70 text-sm w-full md:w-3/5">Professional hockey clubs are also deeply woven into the fabric of their communities. They host charity events, engage in youth development programs,</p>
-            <button class="bg-pcolor text-white py-2 px-5 rounded-lg ">Register Now!</button>
+            <div>
+              <a class="btn bg-pcolor border-none text-white">Register Now!</a>
+            </div>
           </div>
         </div>
         <!-- card three -->
-        <div class="h-[350px] lg:h-[500px] flex justify-start items-end rounded-lg p-5 lg:pl-10 lg:pb-10 col-span-12 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/program03.png')] bg-no-repeat bg-cover bg-center object-cover">
+        <div class="h-[350px] lg:h-[500px] flex justify-start items-end rounded-lg p-5 lg:pl-10 lg:pb-10 col-span-12 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('./images/program03.png')] bg-no-repeat bg-cover bg-center object-cover">
           <div class="text-white space-y-2">
             <h3 class="text-lg font-semibold">Professional Program</h3>
             <p class="opacity-70 text-sm w-full md:w-3/5">Professional programs are renowned for their demanding nature. Expect rigorous coursework, extensive research projects.</p>
-            <button class="bg-pcolor text-white py-2 px-5 rounded-lg ">Register Now!</button>
+             <div>
+              <a class="btn bg-pcolor border-none text-white">Register Now!</a>
+            </div>
           </div>
         </div>
     </div>
-    
   </section>
     <!-- =====================================
        program  section end
@@ -231,7 +267,7 @@
 
  
 
-    <!-- =====================================
+  <!-- =====================================
         New product section start
   ========================================= -->
     <section class="container mx-auto px-5 lg:px-10 mt-6">
@@ -628,5 +664,4 @@
         Footer section end
   ========================================= -->
 </body>
-
 </html>
